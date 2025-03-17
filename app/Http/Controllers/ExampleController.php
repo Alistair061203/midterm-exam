@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Example;
+use App\Models\Features;
 
 class ExampleController extends Controller
 {
@@ -11,11 +11,10 @@ class ExampleController extends Controller
     
     public function index()
     {
-        // Retrieve all records from the examples table.
-        $data = Example::all();
 
-        // Pass the data to the view using with()
-        return view('Example')->with([
+        $data = Features::all();
+
+        return view('Features')->with([
             'data' => $data
         ]);
     }
