@@ -20,3 +20,5 @@ class ExampleSeeder extends Seeder
 }
 
 // php artisan db:seed --class=ExampleSeeder
+
+// php artisan db:seed --class=ExampleSeeder

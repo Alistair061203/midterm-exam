@@ -6,4 +6,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/example', action: 'App\Http\Controllers\ExampleController@index');
+Route::get('/SablaonJonathan', action: 'App\Http\Controllers\ExampleController@index');
